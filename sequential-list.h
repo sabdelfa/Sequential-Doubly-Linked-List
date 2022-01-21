@@ -62,7 +62,9 @@ public:
 	// Deletes a value at the end of the list.
 	bool remove_back();
 	// Replaces the value at the given index with the given value.
-	bool replace(unsigned int index, DataType val);	
+	bool replace(unsigned int index, DataType val);
+
+    //void print(std::list<int> list) const;
 };
 #endif
 
